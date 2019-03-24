@@ -287,3 +287,16 @@ section {
    width: 7rem;
    text-align: center;
 }
+
+/* Mobile */
+@media (max-width: 499px) {
+
+   .masthead .row,
+   .masthead-content {
+      padding-top: 0;
+   }
+
+   .masthead-image {
+      margin-top: 50px;
+   }
+}
