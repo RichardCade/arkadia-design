@@ -230,11 +230,6 @@ label {
    color: var(--primary-color);
 }
 
-.masthead-image {
-   margin-left: 20%;
-   height: 400px;
-}
-
 /* SECTION */
 section {
    width: 100%;
