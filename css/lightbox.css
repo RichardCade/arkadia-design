@@ -1,0 +1,129 @@
+   * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+   }
+
+   .row > .column-lightbox {
+      padding: 0 8px;
+   }
+
+   .row:after {
+      content: "";
+      display: table;
+      clear: both;
+   }
+
+   .column-lightbox {
+      float: left;
+      width: 25%;
+   }
+
+   /* The Modal (background) */
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: var(--primary-color);
+   }
+
+   /* Modal Content */
+   .modal-content {
+      position: relative;
+      background-color: var(--primary-color);
+      margin: auto;
+      padding: 0;
+      width: 90%;
+      max-width: 1200px;
+   }
+
+   /* The Close Button */
+   .close {
+      color: var(--secondary-color);
+      position: fixed;
+      top: 20px;
+      right: 50px;
+      font-size: 35px;
+      font-weight: bold;
+   }
+
+   .close:hover,
+   .close:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+   }
+
+   .mySlides {
+      display: none;
+   }
+
+   .cursor {
+      cursor: pointer;
+   }
+
+   /* Next & previous buttons */
+   .prev,
+   .next {
+      cursor: pointer;
+      position: absolute;
+      width: auto;
+      padding: 16px;
+      color: var(--secondary-color);
+      font-weight: bold;
+      font-size: 20px;
+      -webkit-transition: 0.6s ease;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-select: none;
+   }
+
+   /* Position the "next button" to the right */
+   .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+   }
+
+   /* On hover, add a black background color with a little bit see-through */
+   .prev:hover,
+   .next:hover {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+   }
+
+   img {
+      margin-bottom: -4px;
+   }
+
+   .caption-container {
+      text-align: center;
+      background-color: var(--primary-color);
+      padding: 2px 16px;
+      color: var(--secondary-color);
+   }
+
+   .demo {
+      opacity: 0.6;
+      width: 100%;
+      margin-bottom: 50px;
+   }
+
+   .active,
+   .demo:hover {
+      opacity: 1;
+   }
+
+   .hover-shadow:hover {
+      -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.6);
+      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.6);
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+   }
