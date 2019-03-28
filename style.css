@@ -360,12 +360,11 @@ section {
 
 /* CONTACT*/
 .section-contact {
-   background-color: var(--primary-color);
-   background-image: var(--background-image);
-   background-attachment: fixed;
-   background-size: cover;
+   padding-bottom: 50px;
+}
+
+.contactForm {
    color: var(--secondary-color);
-   height: 71.5%;
 }
 
 .contactForm label {
@@ -393,8 +392,8 @@ textarea {
 }
 
 .section-contact,
-.contact-nav,
-.contact-footer {
+.contact-nav {
+   background-color: var(--primary-color);
    background-image: url(img/contact_image.svg);
    background-size: contain;
    background-repeat: no-repeat;
@@ -437,6 +436,10 @@ footer a {
    color: white;
 }
 
+.contact-footer .social-media {
+   padding-right: 40px;
+}
+
 /* Mobile */
 @media (max-width: 499px) {
 
@@ -452,6 +455,40 @@ footer a {
    .masthead-image {
       margin-bottom: 50px;
       margin-top: 50px;
+   }
+   
+   .portfolio-thumb {
+      max-width: 350px;
+   }
+   
+   .contactForm .page-heading {
+      padding-top: 120px;
+      padding-bottom: 0;
+   }
+   
+   .contactForm label, .contactForm input, .contactForm textarea {
+      float: left;
+      width: 100%;
+   }
+}
+
+/* Tablet Landscape */
+@media (max-width: 1366px) and (min-width: 700px) {
+   header {
+      height: 10%;
+   }
+   
+   .portfolio-thumb {
+      max-width: 100%;
+   }
+   
+   .section-contact, .section-contact label {
+      color: white;
+   }
+   
+   .contactForm label, .contactForm input, .contactForm textarea {
+      float: left;
+      width: 100%;
    }
 }
 

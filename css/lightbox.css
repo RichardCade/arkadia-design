@@ -13,7 +13,7 @@
       clear: both;
    }
 
-   .column-lightbox {
+   .column-lightbox, .column-lightbox-thumb {
       float: left;
       width: 25%;
    }
@@ -61,6 +61,7 @@
 
    .mySlides {
       display: none;
+      margin-bottom: 50px;
    }
 
    .cursor {
@@ -127,3 +128,11 @@
       -webkit-transition: 0.3s;
       transition: 0.3s;
    }
+
+@media (max-width: 499px) {
+   .column-lightbox {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+}
