@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="A creative web design service who are passionate about helping you and your business thrive in a digital world.">
+   <meta name="author" content="Arkadia Design">
+   <meta name="theme-color" content="#052c49" />
+   <link rel="icon" href="img/arkadia_favicon.png">
+   <title>Arkadia Design</title>
+
+   <!-- CUSTOM STYLES -->
+   <noscript>
+      <link rel="stylesheet" href="css/grid-style.min.css">
+   </noscript>
+   <link rel="stylesheet" href="css/lightbox.min.css">
+   <link rel="stylesheet" href="style.css">
+   <!-- CUSTOM FONTS -->
+   <noscript>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
+   </noscript>
+   <!-- CUSTOM ICONS -->
+
+   <noscript>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   </noscript>
+</head>
+
+<body class="portfolio-body">
+
+   <header class="portfolio-nav">
+      <div class="container">
+
+         <a href="index.html" id="logo" target="_blank">
+            <img class="nav-logo" src="img/arkadia_logo_light.png" alt="logo">
+         </a>
+
+         <label for="toggle-1" class="toggle-menu">
+            <ul>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+            </ul>
+         </label>
+         <input type="checkbox" id="toggle-1">
+
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="index.html#services">Services</a></li>
+               <li><a href="index.html#work">Work</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <div class="container">
+      <div class="page-heading">
+      </div>
+
+      <section class="section-portfolio">
+         <div class="row portfolio-name">
+            <h2>Smarkpeek</h2>
+         </div>
+
+         <div class="row" id="smarkpeek">
+            <div class="one-half column">
+               <img class="u-max-full-width" src="img/smarkpeek-thumb.jpg" alt="">
+            </div>
+            <div class="one-half column portfolio-text">
+               <p>Smarkpeek are a start up who are planning on launching an app that allows users to find out whether an item is in stock in a store. We were tasked with creating an appealing website to showcase the app, as well as ascertain whether there was a market for the app.</p>
+               <p>Given the main purpose of the website, we decided to build the website with a mobile first mentality, after all nobody is going to show interest in an app with a poor mobile website.</p>
+               <p>One of the main features of the site is a survey, allowing Smarkpeek to capture user feedback on the potential app. </p>
+               <p>The entire site was built with WordPress, easily allowing for customisation of the website, as well as the ability to scale as the company grows.</p>
+            </div>
+         </div>
+
+         <div class="row">
+            <div class="column-lightbox">
+               <img src="img/smarkpeek-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="Thumbnail of a webpage">
+            </div>
+            <div class="column-lightbox">
+               <img src="img/smarkpeek-survey-thumb.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor" alt="Thumbnail of a webpage">
+            </div>
+            <div class="column-lightbox">
+               <img src="img/smarkpeek-mobile-thumb.jpg" style="width:26%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="Thumbnail of a webpage">
+            </div>
+         </div>
+
+         <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+               <div class="mySlides">
+                  <img src="img/smarkpeek-full.jpg" style="width:100%">
+               </div>
+
+               <div class="mySlides">
+                  <img src="img/smarkpeek-survey.jpg" style="width:100%">
+               </div>
+
+               <div class="mySlides">
+                  <img src="img/smarkpeek-mobile.jpg" style="width:100%">
+               </div>
+            </div>
+         </div>
+      </section>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="nine columns">
+               <p>
+                  <a class="footer-link" href="index.html">Home</a>
+                  |
+                  <a class="footer-link" href="index.html#services">Services</a>
+                  |
+                  <a class="footer-link" href="index.html#work">Work</a>
+                  |
+                  <a class="footer-link" href="contact.html">Contact Us</a>
+               </p>
+            </div>
+            <div class="three columns social-media">
+               <a class="social-icon" aria-label="Linked In" href="https://www.linkedin.com/company/arkadiadesign">
+                  <i class="fab fa-linkedin"> </i>
+               </a>
+               <a class="social-icon" aria-label="Instagram" href="https://www.instagram.com/arkadiadesign">
+                  <i class="icon fab fa-instagram"> </i>
+               </a>
+               <a class="social-icon" aria-label="Twitter" href="https://twitter.com/DesignArkadia">
+                  <i class="fab fa-twitter"> </i>
+               </a>
+               <a class="social-icon" aria-label="Facebook" href="https://www.facebook.com/ArkadiaDesign5/">
+                  <i class="fab fa-facebook-f"> </i>
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/main.js"></script>
+
+   <script type="text/javascript">
+      /* First CSS File */
+      var giftofspeed = document.createElement('link');
+      giftofspeed.rel = 'stylesheet';
+      giftofspeed.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+      giftofspeed.type = 'text/css';
+      var godefer = document.getElementsByTagName('link')[0];
+      godefer.parentNode.insertBefore(giftofspeed, godefer);
+
+      /* Second CSS File */
+      var giftofspeed2 = document.createElement('link');
+      giftofspeed2.rel = 'stylesheet';
+      giftofspeed2.href = 'https://use.fontawesome.com/releases/v5.8.1/css/all.css';
+      giftofspeed2.type = 'text/css';
+      var godefer2 = document.getElementsByTagName('link')[0];
+      godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+
+      /* Third CSS File */
+      var giftofspeed2 = document.createElement('link');
+      giftofspeed2.rel = 'stylesheet';
+      giftofspeed2.href = 'css/grid-style.min.css';
+      giftofspeed2.type = 'text/css';
+      var godefer2 = document.getElementsByTagName('link')[0];
+      godefer2.parentNode.insertBefore(giftofspeed2, godefer2);
+
+   </script>
+
+</body>
+
+</html>
